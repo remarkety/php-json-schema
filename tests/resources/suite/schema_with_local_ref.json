@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "required": [
+    "options"
+  ],
+  "properties": {
+    "options": {
+      "$ref": "local_schema.json#/definitions/instanceOptions"
+    }
+  }
+}

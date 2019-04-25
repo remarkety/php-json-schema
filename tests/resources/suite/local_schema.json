@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "required": [
+    "f"
+  ],
+  "properties": {
+    "f": {
+      "type": "integer"
+    }
+  },
+  "definitions": {
+    "instanceOptions": {
+      "type": "object",
+      "required": [
+        "m"
+      ],
+      "properties": {
+        "m": {
+          "const": 123
+        }
+      }
+    }
+  }
+}
